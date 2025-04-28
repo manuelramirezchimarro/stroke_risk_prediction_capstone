@@ -66,6 +66,24 @@ Our goal is to support preventive healthcare initiatives by identifying high-ris
 ---
 
 ##  Repository Structure
+/stroke-risk-capstone/
+    ├── notebooks/
+    │   ├── 01_data_wrangling.ipynb
+    │   ├── 02_eda.ipynb
+    │   ├── 03_preprocessing.ipynb
+    │   └── 04_modeling.ipynb
+    ├── data/
+    │   ├── stroke_data_clean.csv
+    │   ├── X_train.csv
+    │   ├── X_test.csv
+    │   ├── y_train.csv
+    │   └── y_test.csv
+    ├── models/
+    │   └── random_forest_model.pkl
+    ├── slides/
+    │   └── Stroke_Prediction_Presentation.pdf
+    ├── model_metrics.csv
+    └── README.md
 
 
 ##  Author
